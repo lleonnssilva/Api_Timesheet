@@ -9,10 +9,10 @@ const router = express.Router()
 
 // Connecta ao banco
 mongoose.connect(
-  process.env.CONNECTION_STRING,
-  {
-    useNewUrlParser: true
-  }
+  process.env.CONNECTION_STRING 
+  // {
+  //   useNewUrlParser: true
+  // }
 )
 
 // Carrega os Models
