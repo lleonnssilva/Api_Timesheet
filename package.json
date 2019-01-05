@@ -22,7 +22,8 @@
     "jsonwebtoken": "^7.4.0",
     "md5": "^2.2.1",
     "mongoose": "^4.11.0",
-    "sendgrid": "^2.0.0"
+    "sendgrid": "^2.0.0",
+    "dotenv": "^6.2.0"
   },
   "devDependencies": {
     "dotenv": "^6.2.0",
