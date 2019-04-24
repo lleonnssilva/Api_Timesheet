@@ -16,11 +16,11 @@ const Appointment = new mongoose.Schema(
     lonPoint: {
       type: String,
       required: true
+    },
+    userId: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "User"
     }
-    // userId: {
-    //   type: mongoose.Schema.Types.ObjectId,
-    //   ref: "User"
-    // }
   },
   {
     timestamps: true

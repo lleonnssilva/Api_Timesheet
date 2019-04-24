@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const Appointment = mongoose.model("Appointment");
 
 exports.get = async () => {
-  const res = await Appointment.find().populate("User");
+  const res = await Appointment.find();
   return res;
 };
 
